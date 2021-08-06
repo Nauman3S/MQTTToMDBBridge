@@ -9,11 +9,19 @@
   - AVRDUDE
   - avr-libc
 
+### Installing Pre-Reqs on Linux(Ubuntu or Debian Based Distro)
+
+  On Ubuntu or any Debian based Linux distro execute the following commands
+  - ```sudo apt-get install -y gcc-avr```
+  - ```sudo apt-get install -y avrdude```
+  - ```sudo apt-get install avr-libc```
+
+
 ### Setup
 
   1. Open terminal in the atmega2560FW folder and execute `make clean`
   2. Open makefile, replace P=COM1 to the COM port of your arduino mega and save the file
-  2.2 Compile it with `make all`
+    1. Compile it with `make all`
   3. Upload it to your Arduino with `make program`
 
 ## ESP32 Code
