@@ -1,5 +1,5 @@
-# MDB MQTT
-## atmega2560 Code
+# MQTT To MDB Bridge
+## Atmega2560 Code(Arduino Mega)
 
 ## Pre Requirements
  
